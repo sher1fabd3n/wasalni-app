@@ -1,0 +1,24 @@
+{
+  "files.watcherExclude": {
+    "**/lib/generated/l10n/**": true,
+    "**/lib/l10n/app_localizations*.dart": true,
+    "**/build/**": true,
+    "**/android/.gradle/**": true,
+    "**/android/**/build/**": true,
+    "**/.dart_tool/**": true
+  },
+  "search.exclude": {
+    "**/lib/generated/l10n/**": true,
+    "**/lib/l10n/app_localizations*.dart": true,
+    "**/build/**": true,
+    "**/android/.gradle/**": true,
+    "**/android/**/build/**": true,
+    "**/.dart_tool/**": true
+  },
+  "files.exclude": {
+    "**/android/app/build": true
+  },
+  "dart.analysisExcludedFolders": [
+    "lib/generated/l10n"
+  ]
+}

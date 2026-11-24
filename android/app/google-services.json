@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "674449957036",
+    "firebase_url": "https://waslny-app-295cf-default-rtdb.firebaseio.com",
+    "project_id": "waslny-app-295cf",
+    "storage_bucket": "waslny-app-295cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674449957036:android:e7d3a208fcd57d9cb77f09",
+        "android_client_info": {
+          "package_name": "com.sherif.desoukwasalny"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFt4M4mcIbX99U4IVy9QClqXaVcg4oUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674449957036:android:96edbffc146d81fcb77f09",
+        "android_client_info": {
+          "package_name": "com.sherif.usersapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFt4M4mcIbX99U4IVy9QClqXaVcg4oUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674449957036:android:fa283e123545ac21b77f09",
+        "android_client_info": {
+          "package_name": "com.sherifabden.driversapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFt4M4mcIbX99U4IVy9QClqXaVcg4oUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674449957036:android:9a501e7757396c90b77f09",
+        "android_client_info": {
+          "package_name": "com.waslni.sherif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFt4M4mcIbX99U4IVy9QClqXaVcg4oUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674449957036:android:047f26d48c081158b77f09",
+        "android_client_info": {
+          "package_name": "com.waslny.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFt4M4mcIbX99U4IVy9QClqXaVcg4oUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

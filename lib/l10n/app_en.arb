@@ -1,0 +1,282 @@
+{
+  "@@locale": "en",
+  "appTitle": "Desouq Wasalny",
+  "loginTitle": "Sign in as rider",
+  "email": "Email",
+  "loginEmailOrPhone": "Email or phone number",
+  "validationLoginIdentifier": "Enter a valid email or phone number",
+  "loginPhoneNotFound": "No account is linked to this phone number",
+  "password": "Password",
+  "login": "Sign in",
+  "signingIn": "Signing in...",
+  "loginInvalidCredentials": "Wrong email or password",
+  "loginUserNotFound": "No account for this email",
+  "loginTooManyRequests": "Too many attempts. Try again later",
+  "loginRequestTimeout": "Connection timed out. Check your internet and try again.",
+  "noAccountSignUp": "No account? Sign up here",
+  "signUpTitle": "Create account",
+  "userName": "Username",
+  "phone": "Phone",
+  "signUp": "Register",
+  "signUpInProgress": "Signing up...",
+  "haveAccountLogin": "Already have an account? Sign in",
+  "validationNameShort": "Name must be at least 4 characters",
+  "validationPhone": "Phone must be at least 7 digits",
+  "validationEmail": "Enter a valid email",
+  "validationPassword": "Password must be at least 6 characters",
+  "registeringAccount": "Creating account...",
+  "errorSignupGeneric": "Sign-up error",
+  "errorEmailInUse": "Email is already in use",
+  "errorInvalidEmail": "Invalid email",
+  "errorWeakPassword": "Weak password (at least 6 characters)",
+  "errorNetworkFirebase": "Could not reach Firebase. Check connection; emulators often fail — try a real device.",
+  "errorFirebaseEmulatorHint": "Firebase may fail on emulators even when the browser works. Try a physical phone.",
+  "errorGeneric": "Something went wrong",
+  "profile": "Profile",
+  "history": "Trip history",
+  "about": "About",
+  "logout": "Log out",
+  "language": "Language",
+  "languageArabic": "Arabic",
+  "languageEnglish": "English",
+  "languageSystem": "System default",
+  "comingSoonShort": "Coming soon",
+  "resolvingPickupGps": "Getting pickup location...",
+  "tripRequestDataIncomplete": "Trip data is incomplete. Set pickup and destination, then try again.",
+  "pickupOutsideServiceArea": "Pickup or destination is outside the service area (Kafr El Sheikh governorate).",
+  "fcmKeyMissing": "FCM server key missing. Rebuild with --dart-define=SERVER_KEY_FCM=… (Firebase → Project settings → Cloud Messaging).",
+  "fcmHttp404": "Push failed (HTTP 404). Enable «Cloud Messaging API (Legacy)» in Google Cloud for this Firebase project, or verify the FCM endpoint.",
+  "fcmHttp401": "Push failed (HTTP 401/403). Check SERVER_KEY_FCM — use the Server key from Firebase Console.",
+  "fcmDownstreamError": "Push reached FCM but failed: {error}",
+  "@fcmDownstreamError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "fcmNetworkError": "Could not reach FCM. Check internet connection.",
+  "tripTabInternal": "Internal trip",
+  "tripTabExternal": "External trip",
+  "internalTabIntro": "Your location is set as pickup. Type your destination in Desouk (at least 2 letters) and pick a result. Fixed fare {egp} EGP.",
+  "internalDestinationHint": "To — your destination in Desouk",
+  "internalDestinationRequired": "Type your Desouk destination and pick a result, or enter at least 3 clear characters.",
+  "dropoffSetSnackbar": "Destination set",
+  "@internalTabIntro": {
+    "placeholders": {
+      "egp": {
+        "type": "String"
+      }
+    }
+  },
+  "continueShowPrice": "Continue — show fare",
+  "externalTabIntro": "Set pickup and destination. Fare is based on route distance. Type at least two letters, then tap a result below.",
+  "fromPickupHint": "From — pickup address",
+  "toDestinationHint": "To — destination",
+  "planTripTitle": "Plan trip",
+  "pickupResults": "Pickup results",
+  "dropoffResults": "Destination results",
+  "pricingInternalFixed": "Internal trip — fixed {egp} EGP",
+  "@pricingInternalFixed": {
+    "placeholders": {
+      "egp": {
+        "type": "String"
+      }
+    }
+  },
+  "pricingExternalDistance": "External trip — fare by distance (km)",
+  "estimatedFareLabel": "Estimated fare before you request",
+  "externalFareFormula": "Base {base} EGP + {perKm} EGP × distance (km)",
+  "@externalFareFormula": {
+    "placeholders": {
+      "base": { "type": "String" },
+      "perKm": { "type": "String" }
+    }
+  },
+  "confirmRequestRide": "Confirm & request ride",
+  "currencyEgp": "EGP",
+  "payCash": "Pay cash",
+  "amountDueDriver": "Amount due: {amount} EGP — pay the driver.",
+  "@amountDueDriver": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingFirebase": "Initializing Firebase...",
+  "firebaseInitFailed": "Could not initialize Firebase. Check internet and google-services.json, then retry.",
+  "retry": "Retry",
+  "locationGpsError": "Could not get your location. Turn on location services and check your connection, then try again.",
+  "locationServiceDisabled": "Location is off on this device. Turn on location in settings.",
+  "locationPermissionDenied": "Allow location access for this app when prompted.",
+  "locationPermissionForeverDenied": "Location access was denied. Enable it for this app in system Settings → Apps.",
+  "blockedMessage": "You are blocked. Contact admin: {email}",
+  "@blockedMessage": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "gettingDirection": "Getting route...",
+  "routeFetchError": "Could not load route. Check connection or try later.",
+  "internalPickupRequired": "Choose pickup from results or wait for GPS, then continue.",
+  "noDriverTitle": "No driver available",
+  "noDriverMessage": "No driver nearby. Please try again shortly.",
+  "driverArriving": "Driver is on the way",
+  "driverHasArrived": "Driver has arrived",
+  "estimatingDriverEta": "Calculating arrival time…",
+  "driverArrivedNotificationTitle": "Your driver is here",
+  "driverArrivedNotificationBody": "The driver has arrived at the pickup point.",
+  "driverComingEta": "Driver coming — {eta}",
+  "@driverComingEta": {
+    "placeholders": {
+      "eta": {
+        "type": "String"
+      }
+    }
+  },
+  "drivingToDropoffEta": "Heading to destination — {eta}",
+  "@drivingToDropoffEta": {
+    "placeholders": {
+      "eta": {
+        "type": "String"
+      }
+    }
+  },
+  "tripsHistoryTitle": "My trips",
+  "tripFrom": "From",
+  "tripTo": "To",
+  "noTripsYet": "No completed trips yet",
+  "errorOccurred": "Something went wrong",
+  "aboutDevelopedBy": "Developed by",
+  "aboutBlurb": "This application is built for riders (Waslny Users).",
+  "aboutContactAdmin": "For reports contact: {email}",
+  "@aboutContactAdmin": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutPageTitle": "About this app",
+  "aboutFieldVersionLabel": "Version",
+  "aboutSectionWhatIsTitle": "What is this app?",
+  "aboutWhatIsBody": "Waslny (وصلني) is a rider app to request trips within the supported service area, track trip status, and coordinate with drivers through the platform.",
+  "aboutSectionServiceAreaTitle": "Service area",
+  "aboutServiceAreaBody": "The service is available in Egypt only, within Kafr El Sheikh Governorate and the zones allowed in the app map. Requests outside this area are not accepted.",
+  "aboutSectionPublisherTitle": "Publisher",
+  "aboutFieldSupportEmailLabel": "Support & reports email",
+  "aboutDeleteAccountHint": "You can delete your account and related data from the main menu → “Delete my account”.",
+  "aboutSectionDeveloperTitle": "App developer",
+  "aboutFieldDeveloperPhoneLabel": "Phone",
+  "aboutFieldDeveloperFacebookLabel": "Facebook page",
+  "privacyPolicyTitle": "Privacy policy",
+  "privacySummaryIntro": "We care about your privacy. This summary explains how we handle your data when you use Waslny. For full legal details, open the web policy when the link is configured.",
+  "privacySectionDataTitle": "Data we collect",
+  "privacySectionDataBody": "Account details (name, email, phone) when you sign up; trip data (pickup/drop-off, status, fare; driver-related details once a driver is assigned); ratings and complaints/suggestions if you submit them.",
+  "privacySectionLocationTitle": "Location",
+  "privacySectionLocationBody": "We use your device location in Egypt to show the map, set pickup addresses, and match trip requests with nearby drivers within Kafr El Sheikh Governorate and the allowed zones in the app.",
+  "privacySectionThirdPartiesTitle": "Third parties",
+  "privacySectionThirdPartiesBody": "We may rely on providers such as Google Firebase (authentication, database, storage), map/place services (e.g. OpenStreetMap/Nominatim), and routing (e.g. OSRM) where needed. Those providers have their own policies.",
+  "privacySectionRetentionTitle": "Retention",
+  "privacySectionRetentionBody": "We keep data as long as needed to run the service, comply with law, or resolve disputes. You can request account deletion in the app to remove data linked to your account subject to technical and security rules.",
+  "privacySectionRightsTitle": "Your rights",
+  "privacySectionRightsBody": "You may ask to correct contact details or delete your account. For other privacy requests, email us at the address below.",
+  "privacySectionDeleteTitle": "Deleting your account",
+  "privacySectionDeleteBody": "From the app menu choose “Delete my account” and confirm with your password. This removes your authentication account and deletes much of your app database data linked to you.",
+  "privacyContactFooter": "Privacy questions: {email}",
+  "@privacyContactFooter": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyOpenFullPolicyButton": "Open full privacy policy in browser",
+  "privacyUrlNotConfiguredHint": "The full policy URL is not set yet. Update privacyPolicyUrl in AppConfig after you publish your policy page on your website.",
+  "pickupSetSnackbar": "Pickup location saved",
+  "nominatimRateLimit": "Too many searches. Wait a second and try again.",
+  "nominatimHttpError": "Places service error ({code}). Check internet.",
+  "@nominatimHttpError": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "nominatimConnectionError": "Could not reach places service. Check internet.",
+  "nominatimNoResults": "No results. A longer name or English may help.",
+  "searchMinCharsHint": "Type at least 2 characters, then tap a result below.",
+  "fixedPriceShort": "Fixed fare",
+  "dash": "—",
+  "internalDropLabel": "Internal trip (destination with driver)",
+  "internalPickupSelectFirst": "Set pickup from the internal trip tab, then tap continue.",
+  "currentLocationFallback": "My current location",
+  "useMyLocationTooltip": "Use my current location",
+  "pickupAutoDetected": "Pickup location detected automatically",
+  "homeBottomRequestTrip": "Request ride",
+  "homeBottomMainMap": "Home",
+  "homeBottomSubscriptions": "Subscriptions",
+  "subscriptionTripsMapTooltip": "Subscription / recurring trips",
+  "subscriptionTripsTitle": "Subscription trips",
+  "subscriptionFormIntro": "Fill in the details below. Our team will call you on your phone to agree a subscription price based on distance and days per week.",
+  "subscriptionFullNameLabel": "Full name (three parts)",
+  "subscriptionFullNameValidation": "Enter your full name as at least three words and 8+ characters.",
+  "subscriptionPhoneLabel": "Phone number",
+  "subscriptionPhoneValidation": "Enter a valid phone number (at least 10 digits).",
+  "subscriptionPickupLabel": "Pickup / start location",
+  "subscriptionPickupValidation": "Enter a clear start location (at least 3 characters).",
+  "subscriptionDropoffLabel": "Drop-off / destination",
+  "subscriptionDropoffValidation": "Enter a clear destination (at least 3 characters).",
+  "subscriptionWaitTimeLabel": "Is there a waiting time?",
+  "subscriptionWaitTimeYes": "Yes",
+  "subscriptionWaitTimeNo": "No",
+  "subscriptionWaitTimeValidation": "Please choose whether there is a waiting time.",
+  "subscriptionDaysPerWeekLabel": "How many days per week do you need the ride?",
+  "subscriptionDaysPerWeekHint": "Days count",
+  "subscriptionDaysPerWeekOption": "{count} days per week",
+  "@subscriptionDaysPerWeekOption": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subscriptionRegisterButton": "Submit subscription request",
+  "subscriptionRegisteredMessage": "Your subscription has been registered. We will contact you as soon as possible.",
+  "subscriptionInquiriesCaption": "For inquiries:",
+  "subscriptionDoneBack": "Back",
+  "subscriptionError": "Could not send. Check connection and try again.",
+  "feedbackMenuTitle": "Complaints & suggestions",
+  "complaintsAndSuggestionsTitle": "Complaints and suggestions",
+  "postTripRatingTitle": "Rate your trip",
+  "rateTripLabel": "Your rating (1–5 stars)",
+  "rateDriverLabel": "Your driver",
+  "rateServiceLabel": "Overall service (app & trip)",
+  "optionalCommentHint": "Optional comment",
+  "skipRating": "Skip",
+  "submitRating": "Submit",
+  "ratingStarsHint": "Tap the stars (1–5)",
+  "ratingPickStarsError": "Please choose a rating from 1 to 5 stars.",
+  "feedbackIntroBlurb": "Send us a complaint about a problem, or a suggestion to improve Waslny. Your message is stored securely for the admin team.",
+  "feedbackTypeComplaint": "Complaint",
+  "feedbackTypeSuggestion": "Suggestion",
+  "feedbackMessageHint": "Describe your complaint or suggestion (at least 8 characters)",
+  "feedbackSubmit": "Send",
+  "feedbackSuccess": "Thank you — your message was sent.",
+  "feedbackError": "Could not send. Check connection and try again.",
+  "feedbackMessageTooShort": "Please write a little more detail (at least 8 characters).",
+  "deleteAccountMenuTitle": "Delete my account",
+  "deleteAccountDialogTitle": "Delete account and data?",
+  "deleteAccountDialogBody": "This permanently deletes your profile, trip history linked to you, ratings, and feedback messages. You will not be able to recover this data. Enter your password to confirm.",
+  "deleteAccountPasswordLabel": "Current password",
+  "deleteAccountConfirmButton": "Delete permanently",
+  "deleteAccountCancelButton": "Cancel",
+  "deleteAccountDeleting": "Deleting your account…",
+  "deleteAccountWrongPassword": "Incorrect password. Try again.",
+  "deleteAccountRequiresRecentLogin": "Please sign out and sign in again, then delete your account.",
+  "deleteAccountErrorGeneric": "Could not delete the account. Check your connection and try again.",
+  "deleteAccountEmptyPassword": "Enter your password to confirm."
+}
